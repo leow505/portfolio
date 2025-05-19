@@ -16,6 +16,18 @@
     .animeate-loading-bar {
         animation: loading 0.8s ease infinite;
     }
+    @keyframes scroll-slide {
+        0% {
+            transform: translateX(0%);
+        }
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    .animate-scroll-slide {
+        animation: scroll-slide 30s linear infinite;
+    }
 }
 
 html {

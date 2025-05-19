@@ -1,5 +1,6 @@
 import { FaGithub,FaLinkedin  } from "react-icons/fa";
 import { LoadingIntro } from "@/components/LoadingIntro";
+import { TechStack } from "./TechStack";
 
 export const About = () => {
     return (
@@ -47,6 +48,7 @@ export const About = () => {
                     </p>
                 </div>
             </div>
+            <TechStack />
         </section>
         
     )
