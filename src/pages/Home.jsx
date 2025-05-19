@@ -1,21 +1,17 @@
 import { Navbar } from "@/components/Navbar"
+import { About } from "@/components/sections/About"
+import { Projects } from "@/components/sections/Projects"
+import { MoreInfo } from "@/components/sections/MoreInfo"
 
 export const Home = () => {
     return <div>
         <Navbar />
-        <main className="pt-20">
-        <section id="home" className="min-h-screen bg-gray-100 flex justify-center items-center">
-        <h1 className="text-4xl font-bold">Home</h1>
-        </section>
-        <section id="about" className="min-h-screen bg-gray-200 flex justify-center items-center">
-        <h2 className="text-3xl">About</h2>
-        </section>
-        <section id="projects" className="min-h-screen bg-gray-300 flex justify-center items-center">
-        <h2 className="text-3xl">Projects</h2>
-        </section>
-        <section id="contact" className="min-h-screen bg-gray-400 flex justify-center items-center">
-        <h2 className="text-3xl">Contact</h2>
-        </section>
-    </main>;
+        <main className="dark:bg-gray-700">
+            <div className="max-w-4xl mx-auto px-4">
+                <About />
+                <Projects />
+                <MoreInfo />
+            </div>
+        </main>
     </div>
 }
