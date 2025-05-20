@@ -14,6 +14,7 @@ export const courses = [
 export const experiences = [
 {
     title: "Lead Instructor – Robotics for All",
+    date: "Sept - Dec 2022",
     details:
     "Taught an 8-week online course on HTML, CSS, and JavaScript to middle and high school students. Designed lesson plans, assignments, and live coding sessions.",
 },
@@ -21,6 +22,12 @@ export const experiences = [
     title: "Pet Tracking App – Personal Project",
     details:
     "Developed a frontend app using React, Bootstrap, and Leaflet. Integrated ChatGPT API for generating lost pet posters and used mock data for pet sighting reports.",
+},
+{
+    title: "Web Developer – FuriousGeeks / Simpeel",
+    date: "Summer 2022",
+    details:
+      "Worked at a startup where I integrated open-source shopping carts into client websites and converted PSD designs into responsive frontend implementations. Collaborated closely with designers and clients to build functional, visually polished e-commerce websites using HTML, CSS, and jQuery.",
 },
 {
     title: "Club Event Organizer – Personal Project",

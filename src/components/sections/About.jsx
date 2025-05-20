@@ -1,4 +1,5 @@
 import { FaGithub,FaLinkedin  } from "react-icons/fa";
+import { MdOutlineEmail } from "react-icons/md";
 import { LoadingIntro } from "@/components/LoadingIntro";
 import { TechStack } from "./TechStack";
 import selfie from "@/assets/img/self.webp"
@@ -30,6 +31,14 @@ export const About = () => {
                         className="hover:text-blue-500"
                         >
                         <FaLinkedin />
+                        </a>
+                        <a
+                        href="mailto:leiw6025@gmail.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-blue-500"
+                        >
+                            <MdOutlineEmail />
                         </a>
                     </div>
                 </div>
