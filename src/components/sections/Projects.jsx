@@ -38,6 +38,18 @@ export const Projects = () => {
                   </span>
                 ))}
               </div>
+              {project.live && (
+                <div className="mt-3 flex justify-center">
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-green-500 hover:bg-green-600 text-white text-sm px-4 py-1 rounded transition"
+                  >
+                    Live Demo
+                  </a>
+                </div>
+              )}
             </div>
           ))}
         </div>

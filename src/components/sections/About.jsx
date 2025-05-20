@@ -1,6 +1,7 @@
 import { FaGithub,FaLinkedin  } from "react-icons/fa";
 import { LoadingIntro } from "@/components/LoadingIntro";
 import { TechStack } from "./TechStack";
+import selfie from "@/assets/img/self.webp"
 
 export const About = () => {
     return (
@@ -9,9 +10,9 @@ export const About = () => {
                 {/* left side */}
                 <div className="flex flex-col items-center md:items-start text-center md:text-left">
                     <img
-                        src=""
+                        src={selfie}
                         alt="Profile"
-                        className="w-50 h-50 rounded-full object-cover mb-4"
+                        className="w-220 h-100 rounded-full object-cover mb-4"
                     />
                     <div className="flex gap-4 text-2xl text-gray-600 dark:text-gray-300 mx-auto">
                         <a
