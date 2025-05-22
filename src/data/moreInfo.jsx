@@ -32,6 +32,6 @@ export const experiences = [
 {
     title: "Club Event Organizer – Personal Project",
     details:
-    "Built a React app with Chakra UI and Firebase to manage and promote student club events. Converted Figma designs into responsive frontend layouts.",
+    "Built a React app with Chakra UI and MongoDB to manage and promote student club events. Converted Figma designs into responsive frontend layouts.",
 },
 ];
