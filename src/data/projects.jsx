@@ -22,7 +22,7 @@ export const projectList = [
     },
     {
       title: "Personal Portfolio",
-      image: "/images/portfolio.jpg",
+      image: "",
       description:
         "My personal website showcasing projects, skills, and experience using modern frontend tools.",
       tech: ["React", "Tailwind CSS", "Vite"],

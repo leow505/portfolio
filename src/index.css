@@ -33,3 +33,55 @@
 html {
     scroll-behavior: smooth;
   }
+.img-container{
+    all: unset;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template: 
+    'A A B'
+    'C D B'
+    'C E E' ;
+    gap: 10px;
+    animation: rotation 10s linear infinite;
+}
+.img-item{
+    all: unset;
+    overflow: hidden;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-item img{
+    all: unset;
+    width: 220%;
+    height: 220%;
+    object-fit: cover;
+    animation: rotation 10s linear infinite reverse;
+}
+.img-item:nth-child(1){
+    grid-area: A;
+}
+.img-item:nth-child(2){
+    grid-area: B;
+}
+.img-item:nth-child(3){
+    grid-area: C;
+}
+.img-item:nth-child(4){
+    grid-area: D;
+}
+.img-item:nth-child(5){
+    grid-area: E;
+}
+@keyframes rotation {
+    to {
+        transform: rotate(360deg);
+    }
+}

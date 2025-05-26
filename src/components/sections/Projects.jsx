@@ -51,8 +51,19 @@ export const Projects = () => {
                 </div>
               )}
             </div>
+
           ))}
         </div>
+      </div>
+      <div class="img-container">
+        {projectList.map((project, idx) => 
+        project.image ? (
+          <div class="img-item">
+            <img src={project.image}  alt=" "/>
+          </div>
+        ) : null
+        
+      )}
       </div>
     </section>
   );
