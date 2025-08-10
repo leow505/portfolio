@@ -38,16 +38,28 @@ export const Projects = () => {
                   </span>
                 ))}
               </div>
-              {project.live && (
-                <div className="mt-3 flex justify-center">
-                  <a
-                    href={project.live}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-green-500 hover:bg-green-600 text-white text-sm px-4 py-1 rounded transition"
-                  >
-                    Live Demo
-                  </a>
+              {(project.live || project.github) && (
+                <div className="mt-3 flex justify-center gap-3">
+                  {project.live && (
+                    <a
+                      href={project.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-green-500 hover:bg-green-600 text-white text-sm px-4 py-1 rounded transition"
+                    >
+                      Live Demo
+                    </a>
+                  )}
+                  {project.github && (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-gray-800 hover:bg-gray-900 text-white text-sm px-4 py-1 rounded transition"
+                    >
+                      GitHub
+                    </a>
+                  )}
                 </div>
               )}
             </div>

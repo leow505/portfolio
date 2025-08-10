@@ -9,14 +9,14 @@ export const projectList = [
       title: "PeTrack",
       image: petrack,
       description:
-        "A frontend application to help users report and find lost pets. Features include AI-generated posters using the ChatGPT API and location-based sightings using Leaflet map integration.",
+        "Frontend application to help users report and find lost pets, featuring AI-generated posters (ChatGPT API) and interactive, location-based sightings (Leaflet.js). Designed with a planned Python backend for image matching and data storage.",
       tech: ["React", "Bootstrap", "ChatGPT API", "Leaflet Map API"],
     },
     {
       title: "Club Event Organizer",
       image: csclub,
       description:
-        "A web platform for managing and promoting club events with live updates and club officer organization",
+        "MERN-based platform for managing and promoting club events with live updates and officer-only event controls. Built responsive UI from Figma designs and deployed on Render for 24/7 availability.",
       tech: ["React", "Node.js", "Express", "MongoDB", "Chakra UI"],
       live: "https://mern-site-8den.onrender.com/",
     },
@@ -24,14 +24,14 @@ export const projectList = [
       title: "Personal Portfolio",
       image: "",
       description:
-        "My personal website showcasing projects, skills, and experience using modern frontend tools.",
+        "Personal portfolio showcasing projects, skills, and experience. Built with React, Tailwind CSS, and Vite for fast, responsive performance.",
       tech: ["React", "Tailwind CSS", "Vite"],
     },
     {
         title: "Build Your Own World (CS61B)",
         image: byow,
         description:
-          "A tile-based exploration game built in Java using procedural world generation, player movement, and save/load functionality. Developed as part of UC Berkeley's CS61B Data Structures course.",
+          "Java-based tile exploration game with procedural world generation, interactive player mechanics, and persistent save/load features. Applied OOP and data structures from CS61B.",
         tech: ["Java", "OOP", "Procedural Generation"],
       },
       {
@@ -45,7 +45,7 @@ export const projectList = [
         title: "Ants vs. SomeBees (CS61A)",
         image: ants,
         description:
-          "A turn-based tower defense game implemented in Python. Features object-oriented programming, inheritance, and game state management. Built as part of UC Berkeley's CS61A Structure and Interpretation of Computer Programs course.",
+          "Python-based tower defense game inspired by Plants vs. Zombies. Applied OOP, inheritance, and game state management to create engaging turn-based gameplay.",
         tech: ["Python", "OOP", "Inheritance", "Game Logic"],
       },
   ];
