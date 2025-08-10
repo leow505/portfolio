@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 
 export const LoadingIntro = () => {
     const [text, setText] = useState("");
-    const fullText = "Hello, I'm Leo and glad you are here";
+    const fullText = "Welcome, and thanks for stopping by!";
 
     useEffect(() => {
         let index = 0;
