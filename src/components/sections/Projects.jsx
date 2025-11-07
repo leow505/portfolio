@@ -68,9 +68,11 @@ export const Projects = () => {
         </div>
       </div>
       <div class="img-container">
-        {projectList.map((project, idx) => 
+        {projectList.sort(() => 0.5 - Math.random())
+        .slice(0,5)
+        .map((project, idx) => 
         project.image ? (
-          <div class="img-item">
+          <div class="img-item" key={idx}>
             <img src={project.image}  alt=" "/>
           </div>
         ) : null

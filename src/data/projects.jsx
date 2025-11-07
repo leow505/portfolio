@@ -3,6 +3,7 @@ import csclub from "@/assets/img/csclub.jpg"
 import byow from "@/assets/img/byow.jpg"
 import ngram from "@/assets/img/ngram.jpg"
 import ants from "@/assets/img/ants.jpg"
+import actionm from "@/assets/img/actionmap.jpg"
 
 export const projectList = [
     {
@@ -34,6 +35,19 @@ export const projectList = [
       description:
         "Personal portfolio showcasing projects, skills, and experience. Built with React, Tailwind CSS, and Vite for fast, responsive performance.",
       tech: ["React", "Tailwind CSS", "Vite"],
+    },
+    // {
+    //   title: "Agent PacMan",
+    //   image: pacman,
+    //   description: "",
+    //   tech: []
+    // },
+    {
+      title: "Actionmap",
+      image: actionm,
+      description:
+      "Developed a full-stack web app that visualizes political data across U.S. states and counties, featuring representative lookup, event management, and campaign finance insights. Built with Ruby on Rails, Bootstrap, and Heroku, with Google OAuth for authentication and RSpec/Cucumber for testing.",
+      tech: ["Ruby on Rails", "Bootstrap", "Heroku", "Google OAuth", "RSpec", "Cucumber"]
     },
     {
         title: "Build Your Own World (CS61B)",
