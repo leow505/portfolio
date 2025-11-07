@@ -14,14 +14,14 @@ export const projectList = [
       live: "https://cal-cs184-student.github.io/hw-webpages-pjmas/minecraft_shader/",
     },
     {
-      title: "PeTrack",
+      title: "AI Pet Finder",
       image: petrack,
       description:
         "Frontend application to help users report and find lost pets, featuring AI-generated posters (ChatGPT API) and interactive, location-based sightings (Leaflet.js). Designed with a planned Python backend for image matching and data storage.",
       tech: ["React", "Bootstrap", "ChatGPT API", "Leaflet Map API"],
     },
     {
-      title: "Club Event Organizer",
+      title: "Event Management System",
       image: csclub,
       description:
         "MERN-based platform for managing and promoting club events with live updates and officer-only event controls. Built responsive UI from Figma designs and deployed on Render for 24/7 availability.",
