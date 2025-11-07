@@ -17,7 +17,7 @@ export const Navbar = () => {
                 </li>
                 <li>
                     <ScrollLink to="more" smooth={true} duration={500} offset={-80} className="cursor-pointer hover:text-blue-500">
-                        Etc
+                        Experience
                     </ScrollLink>
                 </li>
                 <li><DarkModeToggle /></li>

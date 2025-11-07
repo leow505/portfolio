@@ -6,6 +6,14 @@ import ants from "@/assets/img/ants.jpg"
 
 export const projectList = [
     {
+      title: "NoirCraft",
+      image: "https://cal-cs184-student.github.io/hw-webpages-pjmas/minecraft_shader/final/img/shader1.jpg",
+      description:
+        "Built a custom Minecraft shader using GLSL to boost realism while keeping its stylized look. It features BRDF lighting, dynamic shadows, and post-processing effects like bloom and blur—all optimized for smooth performance across platforms.",
+      tech: ["OpenGL", "GLSL", "CSS", "HTML", "Bootstrap"],
+      live: "https://cal-cs184-student.github.io/hw-webpages-pjmas/minecraft_shader/",
+    },
+    {
       title: "PeTrack",
       image: petrack,
       description:
