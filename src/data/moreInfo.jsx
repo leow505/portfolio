@@ -53,5 +53,14 @@ export const experiences = [
       third-party APIs for payments and analytics to enhance client performance tracking. Collaborated closely with designers 
       and clients to refine product requirements and ensure efficient iteration cycles. Maintained high platform uptime through 
       proactive issue resolution and rapid deployment of hotfixes.`,
+},
+{
+    title: "Freelance Web Developer",
+    date: "Summer 2020",
+    details:
+    `Developed and maintained a WordPress website for a local flooring company, customizing the design, layout, and content to 
+    align with business needs. Improved site navigation, mobile responsiveness, and SEO visibility, and added new features 
+    through plugin integration. Collaborated directly with the owner to ensure the website effectively showcased services 
+    and supported customer engagement.`
 }
 ];
